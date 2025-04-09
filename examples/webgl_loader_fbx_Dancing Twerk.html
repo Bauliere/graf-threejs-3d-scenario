@@ -36,8 +36,8 @@
 			let camera, scene, renderer, stats, object, loader, guiMorphsFolder;
 			let mixer;
 			const clock = new THREE.Clock();
-			const params = { asset: 'Flair' };
-			const assets = ['Flair', 'morph_test'];
+			const params = { asset: 'Dancing Twerk' };
+			const assets = ['Dancing Twerk', 'morph_test'];
 
 			init();
 
@@ -67,7 +67,7 @@
 
 				// Textura del suelo modificada
 				const textureLoader = new THREE.TextureLoader();
-				const groundTexture = textureLoader.load('textures/hexagonal_pattern.jpg');
+				const groundTexture = textureLoader.load('textures/blue_metal_plate_diff_4k.jpg');
 				groundTexture.wrapS = THREE.RepeatWrapping;
 				groundTexture.wrapT = THREE.RepeatWrapping;
 				groundTexture.repeat.set(20, 20);
