@@ -229,7 +229,7 @@
 			case 'b': case 'B': rainParams.color = 0x0000ff; break;
 			case 'w': case 'W': rainParams.color = 0xffffff; break;
 			case 'v': case 'V': rainParams.wind = (rainParams.wind+1)%6; break;
-			// niebla
+			// neblina
 			case 'ArrowLeft':  fogParams.density = Math.max(fogParams.density-0.001,0); break;
 			case 'ArrowRight': fogParams.density = Math.min(fogParams.density+0.001,0.1); break;
 			case 'a': case 'A': fogParams.color = 0xff0000; break;
@@ -270,5 +270,7 @@
 	}
 
 	</script>
+	
 </body>
 </html>
+
